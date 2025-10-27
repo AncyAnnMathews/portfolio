@@ -122,7 +122,7 @@ col1, col2 = st.columns([1, 2], gap="large")
 with col1:
     # Use your actual photo if available; fallback to placeholder
     try:
-        st.image("image.jpg", width=250)
+        st.image("  ", width=250)
     except:
         st.image("https://via.placeholder.com/250/3498db/ffffff?text=Ancy", width=250)
 
@@ -264,4 +264,5 @@ with vol_col:
 
 # === FOOTER ===
 st.markdown('<div class="footer-note">✨ Portfolio built with Streamlit • Last updated: October 2025</div>', unsafe_allow_html=True)
+
 st.markdown('<div style="text-align:center;"><a href="Resume.pdf" target="_blank">📄 Download Full Resume</a></div>', unsafe_allow_html=True)
