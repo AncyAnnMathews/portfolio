@@ -1,4 +1,4 @@
-import streamlit as st
+
 
 # === PAGE CONFIG ===
 st.set_page_config(
@@ -265,3 +265,4 @@ with vol_col:
 # === FOOTER ===
 st.markdown('<div class="footer-note">✨ Portfolio built with Streamlit • Last updated: October 2025</div>', unsafe_allow_html=True)
 st.markdown('<div style="text-align:center;"><a href="Resume.pdf" target="_blank">📄 Download Full Resume</a></div>', unsafe_allow_html=True)
+
